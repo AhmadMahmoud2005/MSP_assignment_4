@@ -174,6 +174,7 @@ header nav .barger {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 1200px) {
@@ -483,7 +484,7 @@ header nav .barger {
 
 /* Start Footer */
 footer {
-    background-image: url("/assets/image3.jpg");
+    background-image: url("./assets/image3.jpg");
     background-position: center;
     background-size: cover;
     color: white;
@@ -545,7 +546,7 @@ footer .more span::after {
     content: "";
     position: absolute;
     left: 92px;
-    top: 40%;
+    top: 41%;
     width: 10px;
     height: 10px;
     border-top: 3px solid var(--paragraph-color);
